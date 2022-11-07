@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@font-face {
+    font-family:'Gilroy';
+    src: url('Gilroy-Regular.ttf');
+    
+}
+@font-face {
+    font-family:'Gilroy-bold';
+    src: url('Gilroy-Bold.ttf');    
+}
+
+@font-face {
+    font-family:'Gilroy-semibold';
+    src: url('Gilroy-SemiBold.ttf');    
+}
+
+@font-face {
+    font-family:'Gilroy-medium';
+    src: url('Gilroy-Medium.ttf');    
+}
+
+html{
+    font-size: 20.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: inherit;
+    background-color: #ffffff;
+}
+
+.logo-container{
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #F0F1F1;
+    background:#F9F7F5;
+    border-radius: 12px;
+    padding: 8px 36px 8px 8px;
+    margin-left: 8px;
+}
+
+.logo > div {
+    margin-top: 8px;
+    margin-left: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #F9F7F5;
+    overflow-x: hidden;
+    
+}
+
+.a{
+    padding-top: 72px;
+}
+
+a > img{
+    margin-right: 4px;
+}
+  
+.sidenav a {
+    padding: 6px 6px 16px 32px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #384747;
+    display: block;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.cont-p{
+    display: flex;
+    justify-content: space-between;
+    background: #F9F7F5; ;
+}
+
+.perk-active{
+    border-radius: 12px;
+    padding-right: 64px;
+    background: #F1EAE4;
+
+}
+
+.perk-active > a{
+   color: #0080FF; 
+}
+
+.highlight{
+   
+    width: 10px;
+    height: 60px;
+    background: #00CFFF;
+    border-radius: 12px 0 0 12px;
+}
+
+.lefthead-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    right: 0;
+    position: fixed;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.lefthead-container > div {
+    gap: 8px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+    align-items: center;
+}
+
+.profile > div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+}
+
+.drop{
+    height: 8px;
+    width: 8px;
+}
+
+#circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.cont {
+    text-align: center; 
+    padding-top: 66px;
+}
+
+.line {
+    margin-top:0;
+    height: 1px;
+    width: 100%;
+    background: #D6DBDB;
+}
+
+.main{
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.pp-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+    
+}
+
+.perk-prop {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.01em;
+   
+}
+
+.kyc{
+    border: 1px solid #D6DBDB;
+    border-radius: 12px 12px 0px 0px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    gap: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+
+}
+
+.main-line {
+    text-align: center; 
+    padding-top: 0;
+}
+
+.line {
+    margin-top:0;
+    height: 1px;
+    width: 100%;
+    background: #D6DBDB;
+}
+
+.embedded-services{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 92px;
+}
+
+.embedded-service{
+    background: #FFFFFF;
+    border: 1.2px solid #E4E7E7;
+    border-radius: 16px;
+    padding-top: 64px;
+    padding-bottom: 8px;
+}
+
+.embedded-content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #000000;
+    padding-right: 112px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+
+}
+
+.contt {
+    text-align: center; 
+   
+}
+
+
+
+.embedded-service > .manage{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: #384747;
+    padding-left: 16px;
+    padding-top: 4px;
+}
+
+.line {
+    margin-top:0;
+    height: 1px;
+    width: 100%;
+    background: #D6DBDB;
+}
+
+.recent-transactions{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #384747;
+    margin-top: 52px;
+    margin-bottom: -16px;
+}
+
+.main-table{
+    padding-top: 16px;
+
+}
+
+table{
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+td{
+    padding-top: 32px;
+}
+
+.th{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #384747;
+}
+
+.date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #384747;
+}
+
+.description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #384747;
+}
+
+.amount{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #788787;
+
+}
+
+.status{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #384747;
+    
+    
+}
+
+
+
+.type{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #384747;
+}
